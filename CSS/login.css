@@ -35,15 +35,9 @@
     color: var(--blue);
     text-decoration: none;
 }
-.btn-login{
-    background: var(--blue);
-    color: var(--white);
-    padding: 0.5rem 2rem;
+.login{
     width: 100%;
     margin-top: 1.5rem;
-    border: 1px solid var(--blue);
-    border-radius: var(--lightround);
-    font-size: 1rem;
 }
 .create{
     text-align: center;
