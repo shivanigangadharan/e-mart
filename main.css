@@ -1,0 +1,10 @@
+body{
+    background: var(--lightergrey);
+}
+.nav-options{
+    gap: 40px;
+}
+.badge-number{
+    background: red;
+    color: white;
+}
