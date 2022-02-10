@@ -1,11 +1,11 @@
-body{
-     background: var(--lightergrey);
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     box-sizing: border-box;
-     width: 100vw;
-     height: 100vh;
+.page-container{
+    background: var(--lightergrey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
 }
 .container-login{
     background: var(--white);
