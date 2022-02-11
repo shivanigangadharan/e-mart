@@ -8,3 +8,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
 }
+datalist{
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    color: var(--grey);
+}
+.pricerange{
+    width: 100%;
+}
