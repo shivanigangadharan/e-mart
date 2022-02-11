@@ -4,13 +4,87 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Wishlist | </title>
+    <title>Wishlist | E-mart</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../../components.css">
+    <link rel="stylesheet" type="text/css" href="https://style-ui.netlify.app/components.css">
 </head>
 
 <body>
+    <div class="container-nav">
+        <span class="brandname">E-mart</span>
+        <div class="flex">
+            <input class="searchbar" type="text" placeholder="Search">
+            <i class="search-icon fas fa-search" aria-hidden="true"></i>
+        </div>
+        <div class="nav-options">
+            <a class="nav-item" href="../login/login.html"> Login </a>
+            <a href="../wishlist/wishlist.html">
+                <i class="nav-icon fa-regular fa-heart badge-icon">
+                    <div class="badge-number">
+                        6
+                    </div>
+                </i>
+            </a>
+            <a href="../cart/cart.html">
+                <i class="nav-icon fas fa-shopping-cart badge-icon" aria-hidden="true">
+                    <div class="badge-number">
+                        1
+                    </div>
+                </i>
+            </a>
+        </div>
+    </div>
+
+    <div class="wishlist-page">
+        <h2 class="bold"> My wishlist</h2>
+
+        <div class="wishlist-grid">
+            <div class="container-card">
+                <img alt="Sample image" class="item-img" src="../../assets/jacket.jpg" />
+                <div class="content center">
+                    <h3 class="item-name">Women's premium jacket </h3>
+                    <b>Rs. 2000</b>
+                </div>
+                <button class="btn move-btn cart">Move to cart</button>
+            </div>
+            <div class="container-card">
+                <img alt="Sample image" class="item-img" src="../../assets/jacket.jpg" />
+                <div class="content center">
+                    <h3 class="item-name">Women's premium jacket </h3>
+                    <b>Rs. 2000</b>
+                </div>
+                <button class="btn move-btn cart">Move to cart</button>
+            </div>
+            <div class="container-card">
+                <img alt="Sample image" class="item-img" src="../../assets/jacket.jpg" />
+                <div class="content center">
+                    <h3 class="item-name">Women's premium jacket </h3>
+                    <b>Rs. 2000</b>
+                </div>
+                <button class="btn move-btn cart">Move to cart</button>
+            </div>
+            <div class="container-card">
+                <img alt="Sample image" class="item-img" src="../../assets/jacket.jpg" />
+                <div class="content center">
+                    <h3 class="item-name">Women's premium jacket </h3>
+                    <b>Rs. 2000</b>
+                </div>
+                <button class="btn move-btn cart">Move to cart</button>
+            </div>
+            <div class="container-card">
+                <img alt="Sample image" class="item-img" src="../../assets/jacket.jpg" />
+                <div class="content center">
+                    <h3 class="item-name">Women's premium jacket </h3>
+                    <b>Rs. 2000</b>
+                </div>
+                <button class="btn move-btn cart">Move to cart</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/9903823db4.js" crossorigin="anonymous"></script>
 
 </body>
 
