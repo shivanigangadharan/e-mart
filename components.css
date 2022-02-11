@@ -10,11 +10,11 @@ body{
     margin: 0;
 }
 .item-img{
-    width: 250px;
-    height: 300px;
+    width: 15.625rem;
+    height: 18.75rem;
 }
 .container-card{
-    width: 250px;
+    width: 15.625rem;
     background: var(--white) !important;
 }
 .bold{
