@@ -7,3 +7,11 @@
 body{
     margin: 0;
 }
+.item-img{
+    width: 250px;
+    height: 300px;
+}
+.container-card{
+    width: 250px;
+    background: var(--white) !important;
+}
