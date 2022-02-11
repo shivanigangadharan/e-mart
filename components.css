@@ -1,5 +1,7 @@
-@import url("./CSS/navbar.css");
-@import url("./CSS/login.css");
+@import url("./components/navbar.css");
+@import url("./pages/login/login.css");
+@import url("./pages/products/products.css");
+@import url("./components/filters.css");
 
 :root{
     --lightergrey: #f8f8f8;
@@ -14,4 +16,7 @@ body{
 .container-card{
     width: 250px;
     background: var(--white) !important;
+}
+.bold{
+    font-weight: 800;
 }

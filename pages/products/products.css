@@ -1,0 +1,10 @@
+.products-page{
+    background: var(--lightergrey);
+    padding: 8rem 30px 40px 350px;
+}
+.products-grid{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
