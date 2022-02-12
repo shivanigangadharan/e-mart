@@ -4,6 +4,7 @@
 @import url("./components/filters.css");
 @import url("./pages/wishlist/wishlist.css");
 @import url("./pages/cart/cart.css");
+@import url("./main.css");
 
 :root{
     --lightergrey: #f8f8f8;
