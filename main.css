@@ -21,13 +21,28 @@
 
 }
 .section-main{
-    background: var(--lightgrey);
+    background-image: url(./assets/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: main;
     height: 400px;
 }
 .section-sub{
     background:var(--lightgrey);
-    height: 200px;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.new-arrivals{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.new-img{
+    width: 30%;
 }
 .s1{
     grid-area: sub1;
