@@ -62,6 +62,11 @@
     margin-top: 1.25rem;
     font-size: 0.8rem !important;
 }
+hr{
+    border: 0;
+    height: 1px;
+    background: var(--lightgrey);
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
