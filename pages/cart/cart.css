@@ -5,7 +5,7 @@
 }
 .cart-content{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
 }
 .flex-between{
@@ -23,7 +23,7 @@
     background: var(--white);
 }
 .price-details{
-    width: clamp(200px, 40vw, 300px);
+    width: clamp(12.5rem, 40vw, 18.75rem);
     padding: 2rem;
     background: var(--white);
 }
@@ -36,7 +36,7 @@
 }
 .quantity{
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
 }
 .qty-ip{
@@ -44,14 +44,14 @@
     border: none;
     outline: none;
     text-align: center;
-    padding: 4px 8px;
+    padding: 0.25rem 0.5rem;
     border-top: 1px solid var(--lightgrey);
     border-bottom: 1px solid var(--lightgrey);
 }
 .plusminus{
     background: var(--white);
     border: 0.5px solid var(--lightgrey);
-    padding: 4px 8px;
+    padding: 0.25rem 0.5rem;
     cursor: pointer;
 }
 .plusminus:hover{
